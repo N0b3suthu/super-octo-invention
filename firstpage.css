@@ -1,0 +1,66 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: var(--body-bg);
+    font-family: "Baloo 2", cursive;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 386px;
+    margin: 25px 10px;
+    border-radius: 10px;
+    height: 40vw;
+    background: var(--msger-bg);
+    box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.message {
+    
+}
+
+#mes {
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+}
+
+#uni-logo {
+    padding-left:75px;
+}
+
+#but {
+    background-color: #01425c;
+    cursor: pointer;
+    width: 300px;
+    color:white;
+}
+
+.next {
+    display: flex;
+    padding: 10px;
+    background: white;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    text-align:center;
+    justify-content: center
+}
+
+    .next * {
+        padding: 10px;
+        border: none;
+        border-radius: 15px;
+        font-size: 1em;
+    }
+
+
+
+    img{
+        
+    }
